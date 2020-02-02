@@ -1,0 +1,7 @@
+class(3)
+## [1] "numeric"
+class("3")
+## [1] "character"
+class(TRUE)
+[1] "logical"
+
