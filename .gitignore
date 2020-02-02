@@ -19,5 +19,5 @@ HSD.test(y, trt, DFerror, MSerror, alpha = 0.05, group=TRUE, main = NULL,
 ####para gráfico de barras de las medias y estándar error###
 A<-HSD.test(rdt, trt, 8, 48.9, alpha = 0.05, group=TRUE,
             main = NULL,console=TRUE)
-bar.err(A$means,variation="SE",horiz=TRUE,xlim=c(0,140),col=3)
+bar.err(A$means,variation="SE",horiz=TRUE,xlim=c(0,140),col=6)
 abline(v=0)
